@@ -41,7 +41,7 @@ def sendmail():
 
 	smtpObj = smtplib.SMTP('smtp.163.com',25)
 	smtpObj.set_debuglevel(1)
-	smtpObj.login('yypenge@163.com','yang2016')
+	smtpObj.login('yypenge@163.com',password)
 	smtpObj.sendmail('yypenge@163.com', ['yypenge@163.com'], message.as_string())
 	smtpObj.quit()
 

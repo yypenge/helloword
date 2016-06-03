@@ -1,0 +1,52 @@
+<result property="id" column="ID"/>
+<result property="name" column="NAME"/>
+<result property="state" column="STATE"/>
+<result property="previewPic" column="PREVIEW_PIC"/>
+<result property="smallPic" column="SMALL_PIC"/>
+<result property="middlePic" column="MIDDLE_PIC"/>
+<result property="startTime" column="START_TIME"/>
+<result property="endTime" column="END_TIME"/>
+<result property="minimumFee" column="MINIMUM_FEE"/>
+<result property="crowdFundingState" column="CROWD_FUNDING_STATE"/>
+<result property="fondNum" column="FOND_NUM"/>
+<result property="supportNum " column="SUPPORT_NUM "/>
+<result property="supportFee" column="SUPPORT_FEE"/>
+<result property="displayFakeData" column="DISPLAY_FAKE_DATA"/>
+<result property="displayOrder" column="DISPLAY_ORDER"/>
+<result property="addTime" column="ADD_TIME"/>
+<result property="updateTime" column="UPDATE_TIME"/>
+<result property="operator" column="OPERATOR"/>
+
+
+
+INSERT INTO TABLE (ID,NAME,STATE,PREVIEW_PIC,SMALL_PIC,MIDDLE_PIC,START_TIME,END_TIME,MINIMUM_FEE,CROWD_FUNDING_STATE,FOND_NUM,SUPPORT_NUM ,SUPPORT_FEE,DISPLAY_FAKE_DATA,DISPLAY_ORDER,ADD_TIME,UPDATE_TIME,OPERATOR) VALUES (#id#,#name#,#state#,#previewPic#,#smallPic#,#middlePic#,#startTime#,#endTime#,#minimumFee#,#crowdFundingState#,#fondNum#,#supportNum #,#supportFee#,#displayFakeData#,#displayOrder#,#addTime#,#updateTime#,#operator#)
+
+
+
+SELECT ID,NAME,STATE,PREVIEW_PIC,SMALL_PIC,MIDDLE_PIC,START_TIME,END_TIME,MINIMUM_FEE,CROWD_FUNDING_STATE,FOND_NUM,SUPPORT_NUM ,SUPPORT_FEE,DISPLAY_FAKE_DATA,DISPLAY_ORDER,ADD_TIME,UPDATE_TIME,OPERATOR FROM TABLE
+<result property="id" column="ID"/>
+<result property="name" column="NAME"/>
+<result property="state" column="STATE"/>
+<result property="previewPic" column="PREVIEW_PIC"/>
+<result property="smallPic" column="SMALL_PIC"/>
+<result property="middlePic" column="MIDDLE_PIC"/>
+<result property="startTime" column="START_TIME"/>
+<result property="endTime" column="END_TIME"/>
+<result property="minimumFee" column="MINIMUM_FEE"/>
+<result property="crowdFundingState" column="CROWD_FUNDING_STATE"/>
+<result property="fondNum" column="FOND_NUM"/>
+<result property="supportNum " column="SUPPORT_NUM "/>
+<result property="supportFee" column="SUPPORT_FEE"/>
+<result property="displayFakeData" column="DISPLAY_FAKE_DATA"/>
+<result property="displayOrder" column="DISPLAY_ORDER"/>
+<result property="addTime" column="ADD_TIME"/>
+<result property="updateTime" column="UPDATE_TIME"/>
+<result property="operator" column="OPERATOR"/>
+
+
+
+INSERT INTO TABLE (ID,NAME,STATE,PREVIEW_PIC,SMALL_PIC,MIDDLE_PIC,START_TIME,END_TIME,MINIMUM_FEE,CROWD_FUNDING_STATE,FOND_NUM,SUPPORT_NUM ,SUPPORT_FEE,DISPLAY_FAKE_DATA,DISPLAY_ORDER,ADD_TIME,UPDATE_TIME,OPERATOR) VALUES (#id#,#name#,#state#,#previewPic#,#smallPic#,#middlePic#,#startTime#,#endTime#,#minimumFee#,#crowdFundingState#,#fondNum#,#supportNum #,#supportFee#,#displayFakeData#,#displayOrder#,#addTime#,#updateTime#,#operator#)
+
+
+
+SELECT ID,NAME,STATE,PREVIEW_PIC,SMALL_PIC,MIDDLE_PIC,START_TIME,END_TIME,MINIMUM_FEE,CROWD_FUNDING_STATE,FOND_NUM,SUPPORT_NUM ,SUPPORT_FEE,DISPLAY_FAKE_DATA,DISPLAY_ORDER,ADD_TIME,UPDATE_TIME,OPERATOR FROM TABLE
